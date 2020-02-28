@@ -1,0 +1,19 @@
+REM Opening an Admin powershell instance and echo-ing "Hello World!"
+
+DELAY 1000
+GUI r
+DELAY 450
+STRING powershell -Command "Start-Process PowerShell -Verb RunAs"
+DELAY 200
+ENTER
+DELAY 750
+LEFTARROW
+DELAY 500
+ENTER
+DELAY 750
+STRING echo "Hello World !"
+DELAY 200
+ENTER
+
+
+

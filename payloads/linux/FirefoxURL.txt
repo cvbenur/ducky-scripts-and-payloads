@@ -1,0 +1,16 @@
+REM Opening the terminal and running Firefox with a URL address as an argument
+REM Firefox has to be installed on the target machine
+
+DELAY 1000
+GUI
+DELAY 450
+STRING terminal
+DELAY 200
+ENTER
+DELAY 750
+STRING firefox https://www.google.com/
+DELAY 200
+ENTER
+
+
+
