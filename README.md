@@ -8,9 +8,11 @@ Written in Ducky script.
 
 In this archive are stored ducky scripts, sorted by OS.
 
+
 ## What do they do ?
 
 Each script is named according to what it does on the target machine.
+
 
 ## How do I make them work ?
 
