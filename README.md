@@ -32,12 +32,12 @@ Just copy and adapt the scripts you need, or just download the files and do what
 
 Some scripts will need to be modified according to your needs. <br>
 **E.g.** The following snippet :
->   ...
+>   ...                                 <br>
 >   REM     ###     Launching the URL   <br>
 >   STRING firefox \<URL HERE\>         <br>
 >   DELAY 200                           <br>
 >   ENTER                               <br>
->   ...
+>   ...                                 <br>
 
 <br>
 
