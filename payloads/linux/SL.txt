@@ -1,16 +1,24 @@
-REM Opening the terminal and running the "sl" train command
-REM the "sl" command has to be installed on the target machine
+REM     Author : benur
+REM     NOTE : The "sl" command has to be installed on the target machine
+REM     --> This script opens the terminal and launches the "sl" command
 
+
+REM     ###     START OF SCRIPT
 DELAY 1000
+
+
+REM     ###     Opening the terminal
 GUI
 DELAY 450
 STRING terminal
 DELAY 200
 ENTER
 DELAY 750
+
+
+REM     ###     Launching the command
 STRING sl
 DELAY 200
 ENTER
 
-
-
+REM     ###     END OF SCRIPT

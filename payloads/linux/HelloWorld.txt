@@ -1,15 +1,24 @@
-REM Opening the terminal and echo-ing "Hello World!"
+REM     Author : benur
+REM     --> This script opens a terminal and echoes "Hello World!"
 
+
+REM     ###     START OF SCRIPT
 DELAY 1000
+
+
+REM     ###     Opening the terminal
 GUI
 DELAY 450
 STRING terminal
 DELAY 200
 ENTER
 DELAY 750
+
+
+REM     ###     echo-ing the string
 STRING echo "Hello World !"
 DELAY 200
 ENTER
 
 
-
+REM     ###      END OF SCRIPT

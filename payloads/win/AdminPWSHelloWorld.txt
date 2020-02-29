@@ -1,19 +1,30 @@
-REM Opening an Admin powershell instance and echo-ing "Hello World!"
+REM     Author : benur
+REM     This script opens an Admin instance of PowerShell and echoes "Hello World!"
 
+
+REM     ###     START OF SCRIPT
 DELAY 1000
+
+
+REM     ###     Opening an elevated PowerShell
 GUI r
 DELAY 450
 STRING powershell -Command "Start-Process PowerShell -Verb RunAs"
 DELAY 200
 ENTER
 DELAY 750
+
+
+REM     ###     Confirming the "Execute as Admin"
 LEFTARROW
 DELAY 500
 ENTER
 DELAY 750
+
+
+REM     ###     echo-ing "Hello World!"
 STRING echo "Hello World !"
 DELAY 200
 ENTER
 
-
-
+REM     ###     END OF SCRIPT
