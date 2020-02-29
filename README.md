@@ -14,7 +14,7 @@ In this archive are stored ducky scripts, sorted by OS.
 Each script is named according to what it does on the target machine.
 
 
-## How do I make them work ?
+## How do I make them work ?
 
 Just copy and paste the script you need into your script file, or just download the file and do whatever you want with it.
 
