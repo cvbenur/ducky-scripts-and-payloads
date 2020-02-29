@@ -16,7 +16,7 @@ ENTER
 DELAY 750
 
 
-REM     ###     Launching the command
+REM     ###     Launching the "sl" command
 STRING sl
 DELAY 200
 ENTER

@@ -15,7 +15,7 @@ ENTER
 DELAY 750
 
 
-REM     ###     Appending the alias
+REM     ###     Appending the alias to the .bashrc file
 STRING echo "alias <NAME OF ALIAS>='<YOUR COMMAND HERE'" >> ~/.bashrc
 DELAY 200
 ENTER
@@ -29,7 +29,7 @@ ENTER
 DELAY 450
 
 
-REM     ###     Launching the new alias
+REM     ###     Launching the newly added alias
 STRING <NAME OF ALIAS>
 DELAY 200
 ENTER

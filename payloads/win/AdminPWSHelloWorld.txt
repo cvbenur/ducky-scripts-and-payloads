@@ -6,7 +6,7 @@ REM     ###     START OF SCRIPT
 DELAY 1000
 
 
-REM     ###     Opening an elevated PowerShell
+REM     ###     Opening an elevated PowerShell instance
 GUI r
 DELAY 450
 STRING powershell -Command "Start-Process PowerShell -Verb RunAs"
@@ -15,7 +15,7 @@ ENTER
 DELAY 750
 
 
-REM     ###     Confirming the "Execute as Admin"
+REM     ###     Confirming the "Execute as Admin" dialog box
 LEFTARROW
 DELAY 500
 ENTER
