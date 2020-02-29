@@ -16,7 +16,7 @@ ENTER
 DELAY 750
 
 
-REM     ###     Launching the URL in firefox
+REM     ###     Launching the URL in Firefox
 STRING firefox <URL HERE>
 DELAY 200
 ENTER
